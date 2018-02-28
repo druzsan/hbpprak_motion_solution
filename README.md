@@ -3,15 +3,14 @@ This repository defines the training for the motion challenge of the KIT course 
 
 Please click [here](https://github.com/HBPNeurorobotics/hbpprak_motion), to see the challenge definition and details.
 
-## Launch
-1. Clone project.
-2. Create a link to the project folder in the NRP/Experiments folder.
-3. Now find the project "HBP Praktikum Perception Challenge Solution" in the frontend under 'template experiments' and clone it.
-4. Copy or link the following files from the project folder to .opt/nrpStorage/hbpprak_perception_solution_0:
-    - stepper.py
-    - thimblerigger.py
-    - thimblerigger_config.py
-    - thimblerigger_server.py
+## Launch Training
+1. Install [HBP Praktikum Motion Challenge](https://github.com/HBPNeurorobotics/hbpprak_motion).
+2. Clone this project.
+3. Execute ```cle-nginx``` and ```cle-start``` in terminal.
+4. Launch the script with ```cle-virtual-coach python hbpprak_motion_challenge.py```
 
-## Launch Solution
-After launching the experiment and starting the simulation the robot waits a few seconds (for still standing purposes), then the challenge starts.
+## Results
+After launching the script will train the best weights for synapses in the motion challenge.
+
+The best weights: ```[ 4.88064138 1.00140879 0.3747729 0.25193255 4.16656477 0.15653231
+0.27848169 4.03982977 3.4668989 ]``` with the distance over 31 meters.
