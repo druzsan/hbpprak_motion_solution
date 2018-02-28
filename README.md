@@ -12,5 +12,4 @@ Please click [here](https://github.com/HBPNeurorobotics/hbpprak_motion), to see 
 ## Results
 After launching the script will train the best weights for synapses in the motion challenge.
 
-The best weights: ```[ 4.88064138 1.00140879 0.3747729 0.25193255 4.16656477 0.15653231
-0.27848169 4.03982977 3.4668989 ]``` with the distance over 31 meters.
+The best weights: ```[[4.88064138, 1.00140879, 0.3747729], [0.25193255, 4.16656477, 0.15653231], [0.27848169, 4.03982977, 3.4668989]]``` with the distance over 31 meters.
